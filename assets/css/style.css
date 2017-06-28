@@ -57,6 +57,18 @@
   /* (12/12)*100 */
   width: 100%; }
 
+@media (min-width: 0px) and (max-width: 425px) {
+  .col-3, .col-4, .col-5 {
+    width: 100%; } }
+@media (min-width: 768px) and (max-width: 1024px) {
+  .col-3 {
+    width: 40%; }
+
+  .col-4 {
+    width: 60%; }
+
+  .col-4 {
+    width: 100%; } }
 header div {
   background-color: #ebb85d;
   height: 100px; }
@@ -67,7 +79,7 @@ nav ul {
   width: 100%; }
   nav ul li {
     background-color: #ebb85d;
-    margin: 5%;
+    margin: 1%;
     padding: 5%;
     list-style: none; }
     nav ul li:last-child {

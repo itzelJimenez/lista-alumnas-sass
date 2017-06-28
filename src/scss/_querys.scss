@@ -1,9 +1,19 @@
 @media (min-width: 0px) and (max-width: $phone){
-
+	.col-3, .col-4, .col-5{
+		width: 100%;
+	}
 }
 
 @media (min-width: $tablet) and (max-width: $max-width-tablet){
-	
+	.col-3{
+		width:40%;
+	}
+	.col-4{
+		width: 60%;
+	}
+	.col-4{
+		width: 100%;
+	}
 }
 
 @media (min-width: $min-width-desktop) and (max-width: $desktop){
