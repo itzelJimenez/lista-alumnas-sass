@@ -1,0 +1,17 @@
+@media (min-width: 0px) and (max-width: $phone){
+	*{
+		background-color: red;
+	}
+}
+
+@media (min-width: $tablet) and (max-width: $max-width-tablet){
+	*{
+		background-color:blue;
+	}
+}
+
+@media (min-width: $max-width-tablet) and (max-width: $desktop){
+	*{
+		background-color: yellow;
+	}
+}

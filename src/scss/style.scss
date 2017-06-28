@@ -1,5 +1,6 @@
 @import 'variables';
 @import 'grid';
+@import 'querys';
 
 *{
 	margin: 0 auto;	
@@ -15,7 +16,6 @@ header{
 	}
 	nav{
 	float: left;
-	width: 20%;
 		ul{
 			width: 100%;
 			li{
@@ -37,7 +37,6 @@ header{
 
 #container{
 	display: inline-block;
-	width: 40%;
 		ul{
 			li{
 				list-style: none;
