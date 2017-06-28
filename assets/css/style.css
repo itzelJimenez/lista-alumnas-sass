@@ -65,10 +65,13 @@
     width: 30%; }
 
   #container {
-    width: 70%; } }
-@media (min-width: 1024px) and (max-width: 1440px) {
+    width: 70%; }
+
+  #info {
+    width: 100%; } }
+@media (min-width: 1025px) and (max-width: 1440px) {
   nav {
-    width: 20%; }
+    width: 19%; }
 
   #container, #info {
     width: 40%; } }
@@ -80,17 +83,18 @@ header div {
   height: 100px; }
   header div h1 {
     color: white; }
-header nav {
+
+nav {
   float: left; }
-  header nav ul {
+  nav ul {
     width: 100%; }
-    header nav ul li {
+    nav ul li {
       background-color: #3e3f40;
       list-style: none;
       margin: 1%;
       padding: 5%;
       color: white; }
-      header nav ul li:last-child {
+      nav ul li:last-child {
         background-color: #ebb85d; }
 
 #container {
