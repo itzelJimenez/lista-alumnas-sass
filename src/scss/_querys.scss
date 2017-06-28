@@ -1,26 +1,21 @@
 @media (min-width: 0px) and (max-width: $phone){
-	nav, #container{
+	.col-3, .col-4, .col-5{
 		width: 100%;
 	}
 }
 
 @media (min-width: $tablet) and (max-width: $max-width-tablet){
-	nav{
-		width: 30%;
+	.col-3{
+		width:40%;
 	}
-	#container{
-		width: 70%;
+	.col-4{
+		width: 60%;
 	}
-	#info{
+	.col-4{
 		width: 100%;
 	}
 }
 
 @media (min-width: $min-width-desktop) and (max-width: $desktop){
-	nav{
-		width: 19%;
-	}
-	#container, #info{
-		width: 40%;
-	}
+	
 }

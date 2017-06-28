@@ -1,0 +1,13 @@
+@mixin contrast-container{
+	background-color: $color-contrast;
+	color: white;
+}
+
+@mixin accent-container{
+	background-color: $color-accent;
+}
+
+@mixin lista{
+	margin: 1%;
+	padding: 5%;
+}
