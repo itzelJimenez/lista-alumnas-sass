@@ -82,6 +82,8 @@ header nav {
 #container {
   display: inline-block;
   width: 40%; }
+  #container ul li {
+    list-style: none; }
 
 .clear {
   clear: both; }

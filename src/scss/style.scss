@@ -38,6 +38,11 @@ header{
 #container{
 	display: inline-block;
 	width: 40%;
+		ul{
+			li{
+				list-style: none;
+			}
+		}
 }
 
 .clear{
