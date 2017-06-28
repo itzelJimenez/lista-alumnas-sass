@@ -102,6 +102,7 @@ header nav {
   clear: both; }
 
 #info {
+  display: inline-block;
   background-color: #3e3f40; }
 
 /*# sourceMappingURL=style.css.map */
