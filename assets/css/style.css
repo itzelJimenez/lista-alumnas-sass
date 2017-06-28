@@ -60,35 +60,34 @@
 * {
   margin: 0 auto; }
 
-header {
+header div {
   background-color: #ebb85d;
   height: 100px; }
-  header h1 {
+  header div h1 {
     color: white; }
-
-nav {
+header nav {
   float: left;
-  width: 25%; }
-  nav ul {
+  width: 20%; }
+  header nav ul {
     width: 100%; }
-    nav ul li {
+    header nav ul li {
       background-color: #3e3f40;
       list-style: none;
       margin: 1%;
       padding: 5%;
       color: white; }
-      nav ul li:last-child {
+      header nav ul li:last-child {
         background-color: #ebb85d; }
 
 #container {
-  float: right;
-  width: 70%; }
+  display: inline-block;
+  width: 40%; }
 
 .clear {
   clear: both; }
 
 #info {
-  width: 100%;
+  display: inline-block;
   background-color: #3e3f40; }
 
 /*# sourceMappingURL=style.css.map */
