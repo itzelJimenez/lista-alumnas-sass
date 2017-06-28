@@ -37,6 +37,7 @@ header{
 
 #container{
 	display: inline-block;
+
 		ul{
 			li{
 				list-style: none;
@@ -49,6 +50,5 @@ header{
 }
 
 #info{
-	display: inline-block;
 	background-color: $color-contrast;
 }

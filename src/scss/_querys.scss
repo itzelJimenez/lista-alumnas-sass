@@ -1,17 +1,23 @@
 @media (min-width: 0px) and (max-width: $phone){
-	*{
-		background-color: red;
+	nav, #container{
+		width: 100%;
 	}
 }
 
 @media (min-width: $tablet) and (max-width: $max-width-tablet){
-	*{
-		background-color:blue;
+	nav{
+		width: 30%;
+	}
+	#container{
+		width: 70%;
 	}
 }
 
 @media (min-width: $max-width-tablet) and (max-width: $desktop){
-	*{
-		background-color: yellow;
+	nav{
+		width: 20%;
+	}
+	#container, #info{
+		width: 40%;
 	}
 }
